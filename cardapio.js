@@ -29,3 +29,10 @@ cardapio.push(
   { nome: 'Milkshake',     preco: 12.90, categoria: 'Bebidas' },
   { nome: 'Batata Frita',  preco:  8.90, categoria: 'Acompanhamentos' }
 );
+
+function buscarItem(termo) {
+  return cardapio.filter(item =>
+    item.nome.toLowerCase().includes(termo.toLowerCase()) ||
+    item.categoria.toLowerCase().includes(termo.toLowerCase())
+  );
+}
