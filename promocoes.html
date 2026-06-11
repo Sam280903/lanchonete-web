@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promoções — Lanchonete do Bairro</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .promocoes-layout { display: flex; gap: 24px; padding: 32px 20px; }
+    .promocoes-grid   { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; flex: 1; }
+    .promo-card       { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .promo-card img   { width: 100%; border-radius: 4px; margin-bottom: 12px; }
+    .promo-card .de   { text-decoration: line-through; color: #999; }
+    .promo-card .por  { color: #b8860b; font-weight: bold; font-size: 1.2rem; }
+    .promo-card .validade { font-size: 0.8rem; color: #666; margin-bottom: 12px; }
+    .promo-card .btn-promo { background: #b8860b; color: #fff; border: none; padding: 10px 24px; border-radius: 4px; cursor: pointer; }
+    aside { width: 180px; }
+    aside h3 { margin-bottom: 12px; color: #b8860b; }
+    aside ul { list-style: none; }
+    aside ul li { margin-bottom: 8px; }
+    aside ul li label { cursor: pointer; }
+    aside ul li input { margin-right: 6px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Início</a> |
+    <a href="index.html#cardapio">Cardápio</a> |
+    <a href="promocoes.html">Promoções</a> |
+    <a href="index.html#contato">Contato</a>
+  </nav>
+
+  <main>
+    <h1 style="text-align:center; padding: 28px; color:#b8860b;">Promoções do Dia</h1>
+
+    <div class="promocoes-layout">
+      <div class="promocoes-grid">
+        <div class="promo-card">
+          <img src="https://placehold.co/200x130" alt="Combo X-Bacon" />
+          <h3>Combo X-Bacon</h3>
+          <p class="de">De: R$ 25,00</p>
+          <p class="por">Por: R$ 18,90</p>
+          <p class="validade">Válido até: 30/06</p>
+          <button class="btn-promo">Aproveitar</button>
+        </div>
+        <div class="promo-card">
+          <img src="https://placehold.co/200x130" alt="Frango Grelhado" />
+          <h3>Frango Grelhado</h3>
+          <p class="de">De: R$ 20,00</p>
+          <p class="por">Por: R$ 14,90</p>
+          <p class="validade">Válido até: 30/06</p>
+          <button class="btn-promo">Aproveitar</button>
+        </div>
+        <div class="promo-card">
+          <img src="https://placehold.co/200x130" alt="Milkshake 500ml" />
+          <h3>Milkshake 500ml</h3>
+          <p class="de">De: R$ 15,00</p>
+          <p class="por">Por: R$ 10,90</p>
+          <p class="validade">Válido até: 30/06</p>
+          <button class="btn-promo">Aproveitar</button>
+        </div>
+        <div class="promo-card">
+          <img src="https://placehold.co/200x130" alt="Batata Frita M" />
+          <h3>Batata Frita M</h3>
+          <p class="de">De: R$ 12,00</p>
+          <p class="por">Por: R$ 8,90</p>
+          <p class="validade">Válido até: 30/06</p>
+          <button class="btn-promo">Aproveitar</button>
+        </div>
+      </div>
+
+      <aside>
+        <h3>Categorias</h3>
+        <ul>
+          <li><label><input type="checkbox" /> Lanches</label></li>
+          <li><label><input type="checkbox" /> Bebidas</label></li>
+          <li><label><input type="checkbox" /> Combos</label></li>
+          <li><label><input type="checkbox" /> Sobremesas</label></li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2024 Lanchonete do Bairro</p>
+  </footer>
+
+</body>
+</html>
