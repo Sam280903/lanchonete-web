@@ -127,3 +127,6 @@ footer {
     font-size: 1.4rem;
   }
 }
+
+/* ERRO INTENCIONAL */
+body { background: pink; }
