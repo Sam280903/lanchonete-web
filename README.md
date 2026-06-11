@@ -13,9 +13,15 @@ Site da Lanchonete do Bairro — projeto desenvolvido para a disciplina de Engen
 
 1. Abra o arquivo `index.html` em qualquer navegador moderno.
 2. Navegue pelo cardápio e acesse as promoções pelo menu.
+3. Use a função de busca para encontrar itens específicos.
+4. Filtre por categoria: Lanches, Bebidas, Combos ou Acompanhamentos.
 
 ## Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+
+## Versão
+
+v1.0.0 — Lançamento inicial com cardápio interativo e página de promoções.
