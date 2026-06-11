@@ -36,3 +36,11 @@ function buscarItem(termo) {
     item.categoria.toLowerCase().includes(termo.toLowerCase())
   );
 }
+
+function filtrarPorCategoria(categoria) {
+  return cardapio.filter(item => item.categoria === categoria);
+}
+
+function getCategorias() {
+  return [...new Set(cardapio.map(item => item.categoria))];
+}
