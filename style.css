@@ -116,3 +116,14 @@ footer {
   padding: 16px;
   margin-top: 40px;
 }
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .itens {
+    flex-direction: column;
+    align-items: center;
+  }
+  #hero h1 {
+    font-size: 1.4rem;
+  }
+}
