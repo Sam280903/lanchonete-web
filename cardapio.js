@@ -20,3 +20,12 @@ function renderCardapio() {
 function pedir(nome) {
   alert(`Pedido de "${nome}" realizado com sucesso!`);
 }
+
+// Itens iniciais carregados na página
+cardapio.push(
+  { nome: 'X-Burguer',     preco: 18.90, categoria: 'Lanches' },
+  { nome: 'X-Bacon',       preco: 21.90, categoria: 'Lanches' },
+  { nome: 'Combo Família', preco: 45.90, categoria: 'Combos'  },
+  { nome: 'Milkshake',     preco: 12.90, categoria: 'Bebidas' },
+  { nome: 'Batata Frita',  preco:  8.90, categoria: 'Acompanhamentos' }
+);
